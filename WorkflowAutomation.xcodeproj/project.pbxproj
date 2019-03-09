@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BA6E2D155BE58C1400F4A8E /* Pods_WorkflowAutomationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CF8CF6D94685343A4BD25F /* Pods_WorkflowAutomationTests.framework */; };
+		78AB45FBB643DBE964367059 /* Pods_WorkflowAutomation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7185286139E600703549266C /* Pods_WorkflowAutomation.framework */; };
 		CF13CB2D2233E8B60058C296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF13CB2C2233E8B60058C296 /* AppDelegate.swift */; };
 		CF13CB2F2233E8B60058C296 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF13CB2E2233E8B60058C296 /* ViewController.swift */; };
 		CF13CB322233E8B60058C296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF13CB302233E8B60058C296 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		CF13CB372233E8B60058C296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF13CB352233E8B60058C296 /* LaunchScreen.storyboard */; };
 		CF13CB422233E8B60058C296 /* WorkflowAutomationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF13CB412233E8B60058C296 /* WorkflowAutomationTests.swift */; };
 		CF13CB4D2233E8B60058C296 /* WorkflowAutomationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF13CB4C2233E8B60058C296 /* WorkflowAutomationUITests.swift */; };
+		D9BF37B903D463B5F13B1077 /* Pods_WorkflowAutomationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A464546BEE75FB5DBCB9C4 /* Pods_WorkflowAutomationUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AD73C949B4F9FB1091873A3 /* Pods-WorkflowAutomationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkflowAutomationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkflowAutomationTests/Pods-WorkflowAutomationTests.release.xcconfig"; sourceTree = "<group>"; };
+		279CD3F52488C49EED502ECA /* Pods-WorkflowAutomationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkflowAutomationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkflowAutomationUITests/Pods-WorkflowAutomationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54723AEDA10F4FC23422E5CA /* Pods-WorkflowAutomation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkflowAutomation.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkflowAutomation/Pods-WorkflowAutomation.release.xcconfig"; sourceTree = "<group>"; };
+		59A464546BEE75FB5DBCB9C4 /* Pods_WorkflowAutomationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkflowAutomationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7185286139E600703549266C /* Pods_WorkflowAutomation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkflowAutomation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CF8CF6D94685343A4BD25F /* Pods_WorkflowAutomationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkflowAutomationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D6181998042C6C42E4F428 /* Pods-WorkflowAutomationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkflowAutomationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkflowAutomationUITests/Pods-WorkflowAutomationUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CF13CB292233E8B60058C296 /* WorkflowAutomation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkflowAutomation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF13CB2C2233E8B60058C296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF13CB2E2233E8B60058C296 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		CF13CB482233E8B60058C296 /* WorkflowAutomationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkflowAutomationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF13CB4C2233E8B60058C296 /* WorkflowAutomationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowAutomationUITests.swift; sourceTree = "<group>"; };
 		CF13CB4E2233E8B60058C296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA02F399347753EA95613FFE /* Pods-WorkflowAutomation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkflowAutomation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkflowAutomation/Pods-WorkflowAutomation.debug.xcconfig"; sourceTree = "<group>"; };
+		F7E466BD9468E9CF18409C4B /* Pods-WorkflowAutomationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkflowAutomationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkflowAutomationTests/Pods-WorkflowAutomationTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78AB45FBB643DBE964367059 /* Pods_WorkflowAutomation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA6E2D155BE58C1400F4A8E /* Pods_WorkflowAutomationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9BF37B903D463B5F13B1077 /* Pods_WorkflowAutomationUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B54308F3E2152BC4662E943 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA02F399347753EA95613FFE /* Pods-WorkflowAutomation.debug.xcconfig */,
+				54723AEDA10F4FC23422E5CA /* Pods-WorkflowAutomation.release.xcconfig */,
+				F7E466BD9468E9CF18409C4B /* Pods-WorkflowAutomationTests.debug.xcconfig */,
+				1AD73C949B4F9FB1091873A3 /* Pods-WorkflowAutomationTests.release.xcconfig */,
+				279CD3F52488C49EED502ECA /* Pods-WorkflowAutomationUITests.debug.xcconfig */,
+				84D6181998042C6C42E4F428 /* Pods-WorkflowAutomationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A317F99C934A604CFCA80FF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7185286139E600703549266C /* Pods_WorkflowAutomation.framework */,
+				80CF8CF6D94685343A4BD25F /* Pods_WorkflowAutomationTests.framework */,
+				59A464546BEE75FB5DBCB9C4 /* Pods_WorkflowAutomationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF13CB202233E8B60058C296 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				CF13CB402233E8B60058C296 /* WorkflowAutomationTests */,
 				CF13CB4B2233E8B60058C296 /* WorkflowAutomationUITests */,
 				CF13CB2A2233E8B60058C296 /* Products */,
+				9B54308F3E2152BC4662E943 /* Pods */,
+				A317F99C934A604CFCA80FF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF13CB512233E8B60058C296 /* Build configuration list for PBXNativeTarget "WorkflowAutomation" */;
 			buildPhases = (
+				53CAED0790F384C3EA3531AC /* [CP] Check Pods Manifest.lock */,
 				CF13CB252233E8B60058C296 /* Sources */,
 				CF13CB262233E8B60058C296 /* Frameworks */,
 				CF13CB272233E8B60058C296 /* Resources */,
+				CF13CB5B223401120058C296 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF13CB542233E8B60058C296 /* Build configuration list for PBXNativeTarget "WorkflowAutomationTests" */;
 			buildPhases = (
+				36C6C7111B10940C21DA4051 /* [CP] Check Pods Manifest.lock */,
 				CF13CB392233E8B60058C296 /* Sources */,
 				CF13CB3A2233E8B60058C296 /* Frameworks */,
 				CF13CB3B2233E8B60058C296 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF13CB572233E8B60058C296 /* Build configuration list for PBXNativeTarget "WorkflowAutomationUITests" */;
 			buildPhases = (
+				45A22E9602C3D21591DCD1BC /* [CP] Check Pods Manifest.lock */,
 				CF13CB442233E8B60058C296 /* Sources */,
 				CF13CB452233E8B60058C296 /* Frameworks */,
 				CF13CB462233E8B60058C296 /* Resources */,
@@ -253,6 +297,77 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36C6C7111B10940C21DA4051 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkflowAutomationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45A22E9602C3D21591DCD1BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkflowAutomationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53CAED0790F384C3EA3531AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkflowAutomation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF13CB5B223401120058C296 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\" autocorrect";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF13CB252233E8B60058C296 /* Sources */ = {
@@ -424,6 +539,7 @@
 		};
 		CF13CB522233E8B60058C296 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA02F399347753EA95613FFE /* Pods-WorkflowAutomation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +555,7 @@
 		};
 		CF13CB532233E8B60058C296 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54723AEDA10F4FC23422E5CA /* Pods-WorkflowAutomation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +571,7 @@
 		};
 		CF13CB552233E8B60058C296 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E466BD9468E9CF18409C4B /* Pods-WorkflowAutomationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +589,7 @@
 		};
 		CF13CB562233E8B60058C296 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AD73C949B4F9FB1091873A3 /* Pods-WorkflowAutomationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +607,7 @@
 		};
 		CF13CB582233E8B60058C296 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 279CD3F52488C49EED502ECA /* Pods-WorkflowAutomationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +624,7 @@
 		};
 		CF13CB592233E8B60058C296 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D6181998042C6C42E4F428 /* Pods-WorkflowAutomationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

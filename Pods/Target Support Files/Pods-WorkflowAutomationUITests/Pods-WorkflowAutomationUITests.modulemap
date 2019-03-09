@@ -1,0 +1,6 @@
+framework module Pods_WorkflowAutomationUITests {
+  umbrella header "Pods-WorkflowAutomationUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
